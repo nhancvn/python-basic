@@ -199,7 +199,7 @@ print(team_frequency(teams))
 # Thêm "Barcelona" vào cuối List,
 # Sau đó sắp xếp theo alphabet
 def add_and_sort(teams):
-    # Copy mảng cũ sang mảng mới, nhét thêm "Barcelona" 
+    # Copy mảng cũ sang mảng mới, nhét thêm "Barcelona"
     # vào cuối rồi áp dụng thuật toán Bubble Sort tự viết để sắp xếp lại toàn bộ theo thứ tự chữ cái.
     arr = []
     for item in teams:
