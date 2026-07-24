@@ -86,7 +86,7 @@ print(num4(numbers))
 #bài 8:
 #kiểm tra list có đc sắp xếp tăng dần hay ko ?
 def num5(numbers):
-   for i in range(len(numbers)):
+   for i in range(len(numbers) - 1):
       if numbers[i] > numbers[i + 1]:
          return False
    return True
@@ -110,9 +110,7 @@ def num7 (numbers):
     left = 0
     right = len(numbers) - 1
     while left < right:
-       temp = numbers[left]
-       numbers[left] = numbers[right]
-       numbers[right] = temp
+       numbers[left], numbers[right] = numbers[right], numbers[left]
        left += 1
        right -= 1
     return numbers
