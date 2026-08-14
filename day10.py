@@ -147,7 +147,7 @@ def find_min_max(numbers):
         if numbers < nho_nhat:
             nho_nhat = number
         return lon_nhat, nho_nhat
-print(find_min_max([3, 7, 1, 9, 4]))
+print(find_min_max([3, 7, 1, 9, 4])) 
 print(find_min_max([5]))
 
 
